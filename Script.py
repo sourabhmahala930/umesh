@@ -219,10 +219,15 @@ Money heist S0E01
 
     IMDB_TEMPLATE_TXT = """
 <b>
-🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b> """
+📽️ Tɪᴛᴛʟᴇ: <a href={url}>{title}</a>
+🎭 Gᴇɴʀᴇ: {genres}
+📆 Rᴇʟᴇᴀsᴇ: <a href={url}/releaseinfo>{year}</a>
+🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a> / 10
+
+Pᴏᴡᴇʀᴇᴅ ʙʏ : 
+@UmeshGurjar1390
+
+✮ ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️</b> """
     
     CHANNELS = """
 <b>ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ғᴏʀ ʀᴇᴘᴏ ᴜᴘᴅᴀᴛᴇs </b>"""
