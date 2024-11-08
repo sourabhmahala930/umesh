@@ -2025,6 +2025,7 @@ async def advantage_spell_chok(client, message):
             pass
         return
     if not movies:
+        search = re.sub(r"\s+", " ", search)
         google = search.replace(" ", "+")
         button = [[
             InlineKeyboardButton("🔍 ᴄʜᴇᴄᴋ sᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ 🔍", url=f"https://www.google.com/search?q={google}")
