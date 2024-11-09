@@ -39,8 +39,8 @@ REFFER_POINT = int(environ.get('USER_POINT', "50")) # Set Referel point Count
 premium = environ.get('PREMIUM_LOGS', '-1002232612097')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 # lock file, set file limit 
-FILE_LIMITE = int(environ.get('FILE_LIMITE', 3))
-SEND_ALL_LIMITE = int(environ.get('SEND_ALL_LIMITE', 1))
+FILE_LIMITE = int(environ.get('FILE_LIMITE', 10))
+SEND_ALL_LIMITE = int(environ.get('SEND_ALL_LIMITE', 2))
 LIMIT_MODE = is_enabled((environ.get('LIMIT_MODE', 'True')), False)
 
 # Admins, Channels & Users
@@ -79,9 +79,9 @@ THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "600"))
 VERIFY_URL3 = environ.get('VERIFY_URL3', 'gplinks.com')
 VERIFY_API3 = (environ.get('VERIFY_API3', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc'))
  
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/shdjekkw')
-TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/hejejje')
-TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/safabsovhwi3')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UGMoviez/71')
+TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/UGMoviez/71')
+TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/UGMoviez/71')
 
 # auto files delete
 AUTO_FILE_DELETE = is_enabled((environ.get('AUTO_FILE_DELETE', "True")), False)
