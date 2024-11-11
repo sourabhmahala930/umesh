@@ -59,8 +59,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'gplinks.com'))
-STREAM_API = (environ.get('STREAM_API', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'shortxlinks.com'))
+STREAM_API = (environ.get('STREAM_API', '0ea896fb66141fc165fd2caa43e1e322c3263db6'))
 STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/Hoe/69'))
 STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 
@@ -72,12 +72,12 @@ VERIFY_URL = environ.get('VERIFY_URL', 'shortxlinks.com')
 VERIFY_API = (environ.get('VERIFY_API', '0ea896fb66141fc165fd2caa43e1e322c3263db6'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'gplinks.com')
-VERIFY_API2 = (environ.get('VERIFY_API2', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'shortxlinks.com')
+VERIFY_API2 = (environ.get('VERIFY_API2', '0ea896fb66141fc165fd2caa43e1e322c3263db6'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "600"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'gplinks.com')
-VERIFY_API3 = (environ.get('VERIFY_API3', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'shortxlinks.com')
+VERIFY_API3 = (environ.get('VERIFY_API3', '0ea896fb66141fc165fd2caa43e1e322c3263db6'))
  
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UGMoviez/71')
 TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/UGMoviez/71')
