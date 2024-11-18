@@ -72,12 +72,12 @@ VERIFY_URL = environ.get('VERIFY_URL', 'shortxlinks.com')
 VERIFY_API = (environ.get('VERIFY_API', '0ea896fb66141fc165fd2caa43e1e322c3263db6'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'shortxlinks.com')
-VERIFY_API2 = (environ.get('VERIFY_API2', '0ea896fb66141fc165fd2caa43e1e322c3263db6'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'gplinks.com')
+VERIFY_API2 = (environ.get('VERIFY_API2', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "600"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'shortxlinks.com')
-VERIFY_API3 = (environ.get('VERIFY_API3', '0ea896fb66141fc165fd2caa43e1e322c3263db6'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'gplinks.com')
+VERIFY_API3 = (environ.get('VERIFY_API3', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc'))
  
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UGMoviez/71')
 TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/UGMoviez/71')
@@ -100,7 +100,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Jhwjwp')
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
-PM_FILTER = is_enabled((environ.get('PM_FILTER', "True")), False)
+PM_FILTER = is_enabled((environ.get('PM_FILTER', "True")), True)
 
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -111,7 +111,7 @@ MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 
-REACTION = ["🔥", "❤️", "😍", "⚡", "👍", "❤", "🔥", "🥰", "👏", "😁", "🎉", "🤩", "🙏", "👌", "🕊", "❤‍🔥", "⚡", "😇", "🤗", "😘", "🙊", "😎"]
+REACTION = ["🔥", "❤️", "😍", "⚡", "👍", "❤", "🔥", "🥰", "👏", "😁", "🎉", "🤩", "🙏", "👌", "🕊", "❤‍🔥", "⚡", "😇", "🤗", "😘", "😋", "😎"]
 
 # Streaming
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", "-1001637710147")) 
