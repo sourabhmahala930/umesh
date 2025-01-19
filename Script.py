@@ -216,7 +216,7 @@ Money heist S0E01
 
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <b>{file_name}.\n\nFᴏʀ Pʀᴇᴍɪᴜᴍ Iɴғᴏ /plans \n
-Jᴏɪɴ Nᴏᴡ - @GMoviesX</b>"""
+Jᴏɪɴ Nᴏᴡ - @GMoviesXA</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>
