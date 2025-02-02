@@ -54,7 +54,7 @@ AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '0'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jaatsourabh654:Mw6ufFK4gQ6AMyLO@cluster0.l9dq4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -69,19 +69,19 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 VERIFY_URL = environ.get('VERIFY_URL', 'shortxlinks.com')
-VERIFY_API = (environ.get('VERIFY_API', '0ea896fb66141fc165fd2caa43e1e322c3263db6'))
+VERIFY_API = (environ.get('VERIFY_API', '7565b54ead36267a2a570fe3ab7f4fd39ebe5450'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'gplinks.com')
-VERIFY_API2 = (environ.get('VERIFY_API2', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'shortxlinks.com')
+VERIFY_API2 = (environ.get('VERIFY_API2', '7eb4396be8c91b5ecf6a2df8e1b7d829c8a16779'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "600"))
 VERIFY_URL3 = environ.get('VERIFY_URL3', 'gplinks.com')
-VERIFY_API3 = (environ.get('VERIFY_API3', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc'))
+VERIFY_API3 = (environ.get('VERIFY_API3', '1ebfff0a8cf6ab5508dcd636c7c99d250e38e106'))
  
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UGMoviez/71')
-TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/UGMoviez/71')
-TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/UGMoviez/71')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Links_Tutorialz/14')
+TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/Links_Tutorialz/14')
+TUTORIAL3 = environ.get('TUTORIAL3', 'https://t.me/Links_Tutorialz/7')
 
 # auto files delete
 AUTO_FILE_DELETE = is_enabled((environ.get('AUTO_FILE_DELETE', "True")), False)
@@ -91,9 +91,9 @@ MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/UGMoviez')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Gmoviesxwebseries')
+CHNL_LNK = environ.get('CHNL_LNK', '-1002333080183')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002232612097))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002333080183))
 GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', -1002232612097)) # Group verify stats 
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1002232612097)) # movies request channel, else log channel
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '@umeshgurjar9763')
