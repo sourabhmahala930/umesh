@@ -17,8 +17,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ""))
-API_HASH = environ.get('API_HASH', "")
+API_ID = int(environ.get('API_ID', "23741226"))
+API_HASH = environ.get('API_HASH', "4ae775ba58353e1667b8ad88916673cb")
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 
@@ -36,7 +36,7 @@ QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/dd18f62b9c4ec19e24b9e-d
 REFERAL_TIME = int(environ.get('REFERAL_USER_TIME', "2592000")) # set in seconds | already seted 1 month premium
 REFFER_POINT = int(environ.get('USER_POINT', "50")) # Set Referel point Count 
 #premium Users Satuts
-premium = environ.get('PREMIUM_LOGS', '-1002232612097')
+premium = environ.get('PREMIUM_LOGS', '-1002315823031')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 # lock file, set file limit 
 FILE_LIMITE = int(environ.get('FILE_LIMITE', 10))
@@ -44,12 +44,12 @@ SEND_ALL_LIMITE = int(environ.get('SEND_ALL_LIMITE', 2))
 LIMIT_MODE = is_enabled((environ.get('LIMIT_MODE', 'True')), True)
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6267863649').split()]
-OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "UmeshGurjar1390") # widout 👉 @
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002232612097').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5818756576 6267863649').split()]
+OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "Sourabh_Mahala UmeshGurjar1390") # widout 👉 @
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002296818264').split()]
 # post channel auto post new movie
-POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002232612097').split(','))))
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002296972913'))
+POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002296818264').split(','))))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002442539516'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '0'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), True)
 
